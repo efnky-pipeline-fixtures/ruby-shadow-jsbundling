@@ -1,0 +1,3 @@
+{ "name": "ruby-shadow-jsbundling", "private": true,
+  "scripts": { "build": "esbuild app/javascript/*.* --bundle --outdir=app/assets/builds --sourcemap" },
+  "dependencies": { "esbuild": "0.24.0" } }
